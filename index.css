@@ -1,0 +1,23 @@
+/* Write your code here. */
+
+.container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Roboto";
+}
+
+@media (min-width: 768px) {
+  .containerbut {
+    display: flex;
+    flex-direction: row;
+  }
+}
